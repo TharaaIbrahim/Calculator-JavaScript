@@ -1,14 +1,20 @@
-.content{
-    margin-left: 42%;
+body{
+    background-image: url(./imgs/math2.png);
+    background-size: cover;
 }
 header{
-   margin-left: 5%;
+   text-align: center;
 }
-table,td{
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
     border: 1px solid black;
     cursor: pointer;
     background-color:rgb(235, 227, 227);
-    padding: 1rem;
+    padding: 1.2rem;
 }
 
 .AC{
@@ -23,12 +29,4 @@ table,td{
 }
 .previous{
     background-color: rgb(138, 224, 138);
-}
-@media only screen and (max-width: 600px) {
-    .content{
-        margin-left: 20%;
-    }
-    header{
-        margin-left: 15%;
-     }
 }
